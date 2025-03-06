@@ -1,5 +1,11 @@
 import Image from "next/image";
 import { Crimson_Text } from "next/font/google";
+import locker from "../../../Public/locker.png"
+import wifi from "../../../Public/wifi.png"
+import drink from "../../../Public/drink.png"
+import gym from "../../../Public/gym.png"
+import room from "../../../Public/room.png"
+import trainer from "../../../Public/trainer.png"
 
 const crimson = Crimson_Text({ 
     subsets: ["latin"], 
@@ -8,12 +14,12 @@ const crimson = Crimson_Text({
 });
 
 const facility = [
-    {src: "/locker.png", alt: "locker", heading: "Lockers and Towels", para: "Clean, safe and sanitary environment to keep your stuffs."},
-    {src: "/wifi.png", alt: "wifi", heading: "Free Wifi", para: "Stay connected to the world while you work yourself out."},
-    {src: "/drink.png", alt: "drink", heading: "Complimentary Drinks", para: "We make sure that you stay hydrated so that you can push yourself to the limit."},
-    {src: "/gym.png", alt: "gym", heading: "Hightech Gym", para: "Build yourself with the best available equipments in the market."},
-    {src: "/room.png", alt: "room", heading: "Changing Room", para: "Sanitary changing room with proper privacy."},
-    {src: "/trainer.png", alt: "trainer", heading: "Personal Trainer", para: "You benefit from the monthly care of a Personal Trainer."}
+    {src: locker, alt: "locker", heading: "Lockers and Towels", para: "Clean, safe and sanitary environment to keep your stuffs."},
+    {src: wifi, alt: "wifi", heading: "Free Wifi", para: "Stay connected to the world while you work yourself out."},
+    {src: drink, alt: "drink", heading: "Complimentary Drinks", para: "We make sure that you stay hydrated so that you can push yourself to the limit."},
+    {src: gym, alt: "gym", heading: "Hightech Gym", para: "Build yourself with the best available equipments in the market."},
+    {src: room, alt: "room", heading: "Changing Room", para: "Sanitary changing room with proper privacy."},
+    {src: trainer, alt: "trainer", heading: "Personal Trainer", para: "You benefit from the monthly care of a Personal Trainer."}
 
 ]
 

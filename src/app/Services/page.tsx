@@ -1,5 +1,11 @@
 import Image from "next/image";
 import { Crimson_Text } from "next/font/google";
+import y1 from "../../../Public/y1.png"
+import y2 from "../../../Public/y2.png"
+import y3 from "../../../Public/y3.png"
+import y4 from "../../../Public/y4.png"
+import y5 from "../../../Public/y5.png"
+import y6 from "../../../Public/y6.png"
 
 const crimson = Crimson_Text({ 
     subsets: ["latin"], 
@@ -8,12 +14,12 @@ const crimson = Crimson_Text({
 });
 
 const servicesData = [
-    { src: "/y1.png", alt: "Whole body fat loss", label: "Whole Body Fat Loss" },
-    { src: "/y2.png", alt: "Zumba", label: "Zumba" },
-    { src: "/y3.png", alt: "Yoga", label: "Yoga" },
-    { src: "/y4.png", alt: "Bodybuilding", label: "Bodybuilding" },
-    { src: "/y5.png", alt: "Aerobics", label: "Aerobics" },
-    { src: "/y6.png", alt: "Free Weights", label: "Free Weights" }
+    { src: y1, alt: "Whole body fat loss", label: "Whole Body Fat Loss" },
+    { src: y2, alt: "Zumba", label: "Zumba" },
+    { src: y3, alt: "Yoga", label: "Yoga" },
+    { src: y4, alt: "Bodybuilding", label: "Bodybuilding" },
+    { src: y5, alt: "Aerobics", label: "Aerobics" },
+    { src: y6, alt: "Free Weights", label: "Free Weights" }
 ];
 
 export default function Services() {
