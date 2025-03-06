@@ -33,7 +33,9 @@ export default function Family(){
     </div>
 
         <div className="flex flex-col justify-center items-center">
-        <p className="my-4 font-crimson text-[20px] text-white text-center lg:w-[70%] xl:w-[50%] lg:text-[24px]">"A complete package to all the fitness freaks out there. Join soon and test yourself. Vyayamshalas layouts, environment and its surrounding itself plays vital role to motivate and go beyond your limitation."</p>
+        <p className="my-4 font-crimson text-[20px] text-white text-center lg:w-[70%] xl:w-[50%] lg:text-[24px]">&quot;
+        A complete package to all the fitness freaks out there. Join soon and test yourself. Vyayamshalas layouts, environment and its surrounding itself plays vital role to motivate and go beyond your limitation.&quot;
+        </p>
         </div>
 
         <div className="flex gap-2 justify-center">
